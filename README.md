@@ -11,16 +11,6 @@
 </div>
 
 ---
-
-## ⚡ Quick Start
-
-### **Windows **
-
-1. **Double-click**: `run.bat` (builds installer)
-2. **Or double-click**: `run-dev.bat` (opens app instantly)
-3. **Run as Administrator** for MAC spoofing
-
-
 ## ✨ Features
 
 ### 🔐 **Full HWID Spoofing**
