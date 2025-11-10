@@ -14,22 +14,12 @@
 
 ## ⚡ Quick Start
 
-### **Windows (Easiest)**
+### **Windows **
 
 1. **Double-click**: `run.bat` (builds installer)
 2. **Or double-click**: `run-dev.bat` (opens app instantly)
 3. **Run as Administrator** for MAC spoofing
 
-### **Linux/macOS**
-
-```bash
-chmod +x run.sh run-dev.sh
-./run-dev.sh  # Development mode
-# OR
-./run.sh      # Build installer
-```
-
----
 
 ## ✨ Features
 
@@ -74,25 +64,6 @@ chmod +x run.sh run-dev.sh
 
 ---
 
-## 📦 Installation
-
-```bash
-# Install dependencies (first time only)
-npm install
-
-# Run in development mode
-npm run tauri:dev
-# OR use launcher scripts: run-dev.bat (Windows) or ./run-dev.sh (Linux/Mac)
-
-# Build installer
-npm run tauri:build
-# OR use: run.bat (Windows) or ./run.sh (Linux/Mac)
-```
-
-**Installers will be in**: `src-tauri/target/release/bundle/`
-
----
-
 ## 🎯 How to Use
 
 ### 1. **System Info Tab**
@@ -115,7 +86,6 @@ View your current hardware identifiers (read-only)
 ### Running as Administrator
 
 **Windows**: Right-click app → "Run as administrator"  
-**Linux/macOS**: `sudo npm run tauri:dev`
 
 ---
 
